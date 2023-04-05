@@ -39,12 +39,12 @@ namespace FlappyGame
             pipeSet[1].transform.rotation = Quaternion.Euler(-90, 0, 0);
             _currentPipeSetPos.x += Random.Range(_pipeHorizontalDistanceMin, _pipeHorizontalDistanceMax);
             _currentPipeSetPos.y = Random.Range(_pipeMinVerticalPos, _pipeMaxVerticalPos);
-            pipeSet[1].transform.position = _currentPipeSetPos;
+            pipeSet[1].transform.localPosition = _currentPipeSetPos;
             _currentPipeSetPos.y += Random.Range(_pipeVerticalDistanceMin, _pipeVerticalDistanceMax);
-            pipeSet[0].transform.position = _currentPipeSetPos;
+            pipeSet[0].transform.localPosition = _currentPipeSetPos;
 
             Transform scoreTrigger = GetScoreTrigger();
-            scoreTrigger.transform.position = new Vector3(_currentPipeSetPos.x, 0, 0);
+            scoreTrigger.transform.localPosition = new Vector3(_currentPipeSetPos.x, 0, 0);
         }
 
         private void Start()

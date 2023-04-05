@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5711407944274008427}
   - component: {fileID: 5711407944274008428}
   - component: {fileID: 5711407944274008429}
-  - component: {fileID: -5902743339901393090}
   m_Layer: 7
   m_Name: Pipe
   m_TagString: Untagged
@@ -98,15 +97,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6627606, y: 0.6627606, z: 16.070015}
   m_Center: {x: 0, y: 0, z: -7.6607103}
---- !u!114 &-5902743339901393090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5711407944274008431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd59c69b9147f464a8cfa1dec855f7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
