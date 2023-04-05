@@ -7,7 +7,6 @@ namespace FlappyGame
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private Animator _animator;
         [SerializeField] private Rigidbody _rigidBody;
-        [SerializeField] private float _horizontalSpeed;
         [SerializeField] private float _flapSpeed;
         [SerializeField] private float _gravityMultiplier;
 

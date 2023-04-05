@@ -7,7 +7,6 @@ namespace FlappyGame
         private void OnBecameInvisible()
         {
             gameObject.SetActive(false);
-            Debug.Log("cucu");
         }
     }
 }

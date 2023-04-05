@@ -10,9 +10,9 @@ namespace FlappyGame
 
         public bool HasFlapInput { get; private set; }
 
-        [SerializeField] UIManager _UIManager;
-        [SerializeField] Flappy _flappy;
-        [SerializeField] PipeManager _pipeManager;
+        [SerializeField] private UIManager _UIManager;
+        [SerializeField] private Flappy _flappy;
+        [SerializeField] private PipeManager _pipeManager;
 
         private bool _hasPauseInput;
         private bool _started;
